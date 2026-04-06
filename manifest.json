@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Panopto Transcript Downloader (with Timestamps)",
+  "version": "1.0.0",
+  "description": "Download Panopto transcripts including their timestamps.",
+  "permissions": ["scripting", "activeTab", "downloads"],
+  "host_permissions": ["*://*.panopto.com/*", "*://*.panopto.eu/*", "*://*/*"],
+  "action": { "default_title": "Download Panopto Transcript with Timestamps" },
+  "background": { "service_worker": "background.js" },
+  "icons": {}
+}
